@@ -6,3 +6,8 @@ const nameList = attendanceContainerEle.querySelector("ul");
 addName.onclick = function (event) {
   //do adding stuff
 };
+
+//Adding addition feature
+attendanceContainerEle.onclick = function (event) {
+  //do more stuff
+};
