@@ -2,6 +2,7 @@ const {src, dest, series, parallel} = require('gulp');
 const del = require('del');
 const minifyInline = require('gulp-minify-inline');
 const sourcemaps = require('gulp-sourcemaps');
+const concat = require('gulp-concat');
 
 // This task is supposed to clean things
 // resolve conflict
@@ -24,7 +25,9 @@ function scriptsTask() {
 }
 
 function stylesTask() {
-  return src("src/styles/**/*.css").pipe(dest("dist/css"));
+  return src(['src/styles/styles.css', 'src/styles/new.css'])
+    .pipe(concat('styles.css'))
+    .pipe(dest('dist/css'))
 }
 
 function imagesTask() {

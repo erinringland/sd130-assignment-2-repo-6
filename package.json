@@ -1,5 +1,5 @@
 {
-  "name": "SD130-A2",
+  "name": "sd130-a2",
   "version": "1.0.0",
   "description": "1. Clone this repository to a local directory. 2. Create a new branch, called \"name-adding-feature,\" and checkout that branch. 3. Add to the main.js script a method that adds your name (feel free to hard-code your name into the script) to the unordered list element on the page. Commit this change when you are satisfied that it works.",
   "main": "gulpfile.js",
@@ -12,7 +12,16 @@
   "devDependencies": {
     "del": "^6.0.0",
     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
     "gulp-minify-inline": "^1.1.0",
     "gulp-sourcemaps": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erinringland/sd130-assignment-2-repo-6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erinringland/sd130-assignment-2-repo-6/issues"
+  },
+  "homepage": "https://github.com/erinringland/sd130-assignment-2-repo-6#readme"
 }
